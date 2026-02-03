@@ -1,0 +1,45 @@
+# Rust
+/target/
+Cargo.lock
+*.pdb
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Node / React
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+*.tsbuildinfo
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.iml
+
+# Env
+.env
+.env.local
+.env.*.local
+.env.production
+
+# Build artifacts
+*.log
+.cache/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.bak
+.temp/
